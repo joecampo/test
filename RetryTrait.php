@@ -4,7 +4,7 @@ namespace Enqueue\Test;
 
 trait RetryTrait
 {
-    public function runBare()
+    public function runBare() : void
     {
         $e = null;
 
